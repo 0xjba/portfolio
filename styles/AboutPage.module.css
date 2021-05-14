@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: top;
+  align-items: left;
+  height: 75vh;
+  flex-direction: column;
+  text-align: left;
+}
+
+.red {
+  color: red;
+}
+
+.turqoise {
+  color: turquoise;
+}
+
+.neon {
+    color: #4AF626;
+}
