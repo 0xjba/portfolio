@@ -6,6 +6,7 @@ export default function HomePage() {
     <>
       <div className={styles.container}>
         <h6 className={styles.welcome}>Hola Folks! I am</h6>
+        <img className={styles.avatar} src="avatar.jpg" alt="avatar"></img>
         <h1 className={styles.title}>Jobin Babu Ayathil</h1>
         <h3 className={styles.subtitle}>&lt;-- Engineer --&gt;</h3>
         <div className={styles.buttons}>
