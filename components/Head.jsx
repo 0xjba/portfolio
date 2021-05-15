@@ -6,11 +6,11 @@ const CustomHead = ({ title }) => {
       <title>{title}</title>
       <meta
         name="description"
-        content="Jobin Babu Ayathil is an avid full stack web developer building websites and applications you'd love to use"
+        content="Jobin Babu Ayathil is a passionate engineer &amp; developer community evangelist"
       />
       <meta
         name="keywords"
-        content="nitin, nitin ranganath, ranganath, web developer, nitin web developer, nitin developer, mern stack, nitin portfolio"
+        content="jobin, jobin babu ayathil, Jobin B.A , jobin ayathil, jobin babu, web developer, jobin web developer, jobin developer, mern stack, jobin portfolio, injineer, @the-injineer, @the_injineer the injineer"
       />
     </Head>
   );
@@ -19,5 +19,5 @@ const CustomHead = ({ title }) => {
 export default CustomHead;
 
 CustomHead.defaultProps = {
-  title: 'Nitin Ranganath',
+  title: 'Jobin Babu Ayathil',
 };

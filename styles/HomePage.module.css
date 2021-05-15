@@ -25,6 +25,40 @@
   margin-bottom: 1rem;
 }
 
+.typing {
+display: inline-block;
+}
+
+.typingText {
+  display: inline-block;
+  overflow: hidden;
+  letter-spacing: 2px;
+ animation: typing 3s steps(30, end), blink .75s step-end infinite;
+  white-space: nowrap;
+  font-size: 30px;
+  font-weight: 700;
+  border-right: 4px solid orange;
+  box-sizing: border-box;
+}
+
+@keyframes typing {
+  from { 
+      width: 0% 
+  }
+  to { 
+      width: 100% 
+  }
+}
+
+@keyframes blink {
+  from, to { 
+      border-color: transparent 
+  }
+  50% { 
+      border-color: orange; 
+  }
+}
+
 .subtitle {
   font-size: 2rem;
   color: var(--accent-color);

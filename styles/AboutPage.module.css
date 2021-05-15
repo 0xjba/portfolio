@@ -16,5 +16,18 @@
 }
 
 .neon {
-    color: #4AF626;
+  color: yellow;
+}
+
+.about {
+  font-size: 13px;
+  font-family: monospace;
+}
+
+.category {
+  color: greenyellow;
+}
+
+.orange{
+  color: orangered;
 }
