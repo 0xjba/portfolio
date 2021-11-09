@@ -28,7 +28,7 @@ const Bottombar = () => {
         </div>
         <div className={styles.section}>
           <CheckIcon className={styles.icon} />
-          <p>Hireable</p>
+          <p>Hired</p>
         </div>
         <div className={styles.section}>
           <BellIcon />
